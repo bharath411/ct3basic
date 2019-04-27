@@ -7,7 +7,7 @@ public class studentmarks {
 			System.out.println("Qualified");
 		}
 		else {
-			System.out.println("Disqualified");
+			System.out.println("DisQualified");
 		}
 	}
 
