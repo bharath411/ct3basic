@@ -1,9 +1,14 @@
 package rama;
 
-public class ExampleOne {
+import java.util.Scanner;
+
+public class ExampleTwo {
 
 	public static void main(String[] args) {
-		int marks=90;
+		System.out.println("Enter Marks: ");
+	   Scanner s=new Scanner(System.in);
+	   
+		int marks =s.nextInt();
 		
 		if (marks>=40) {
 			if (marks>=40 && marks<=55) {
