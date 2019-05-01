@@ -16,6 +16,7 @@ public class BasicRules {
 		System.out.println(z);
 		byte by = 29;
 		int cc = by;
+		BasicRules br = new BasicRules();
 	}
 	
 }
